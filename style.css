@@ -1,0 +1,435 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.clear{
+    clear: both;
+}
+
+#section1{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+
+nav{
+    color: white;
+    padding: 3rem;
+}
+
+a{
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    transition: .5s;
+}
+
+nav h1{
+    color: rgba(255, 0, 0, 0.9);
+    font-size: 5.5rem;
+    float: left;
+    font-family: fantasy;
+    letter-spacing: .5rem;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+}
+
+nav li{
+    float: left;
+    margin: 1rem 15rem;
+}
+
+.text-container{
+    position: absolute;
+    top: 50rem;
+    left: 10rem;
+}
+
+.text-container p{
+    color: white;
+    font-size: 4rem;
+}
+
+.text-container span{
+    color: red;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+
+#CV{
+    position: absolute;
+    top: 12rem;
+    padding: 1rem 5rem;
+    text-decoration: none;
+    border: red .5rem solid;
+    border-radius: 1rem 2rem 1rem;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#CV:hover{
+    background-color: red;
+    transition: 0.7s;
+}
+
+#logo{
+    position: absolute;
+    bottom: 15rem;
+    margin-left: 95rem;
+    background: rgba( 213, 173, 173, 0 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10rem;
+border: .5px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/* SECTION2 */
+
+#section2{
+    background-color: black;
+    width: 100%;
+    height: 350rem;
+}
+
+.text-container2 h1{
+    position: absolute;
+    top: 105rem;
+    left: 15rem;
+    color:red;
+    font-size: 8rem;    
+}
+
+.text-container2 p{
+    position: absolute;
+    top: 145rem;
+    left: 15rem;
+    color: white;
+    font-size: 3rem;
+    font-family: monospace;
+    color: wheat;
+}
+
+.text-container2 .text2{
+    position: absolute;
+    top: 120rem;
+    left: 15rem;
+    color: white;
+    font-size: 3rem;
+    font-family: monospace;
+    color: wheat;
+}
+
+.text-container2 span{
+    color: YELLOW;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.pic2{
+    position: absolute;
+    top: 103rem;
+    left: 110rem;
+    border: 2rem groove rgba(255, 17, 0, 0.455);
+    background-color: wheat;
+    box-shadow: 2rem 1rem 2rem  grey;
+}
+
+.language h1{
+    position: absolute;
+    top: 190rem;
+    left: 20rem;
+    color: red;
+    font-size: 5rem;
+}
+
+.language .html{
+    position: absolute;
+    top: 210rem;
+    height: 30rem;
+    left: 20rem;
+    border: 2rem groove grey;
+}
+
+.language .css{
+    position: absolute;
+    top: 210rem;
+    height: 30rem;
+    width: 30rem;
+    background-color: antiquewhite;
+    left: 80rem;
+    border: 2rem groove grey;
+}
+
+.language .script{
+    position: absolute;
+    top: 210rem;
+    height: 30rem;
+    width: 30rem;
+    background-color: antiquewhite;
+    left: 135rem;
+    border: 2rem groove grey;
+}
+
+.objective p{
+    position: absolute;
+    top: 280rem;
+    left: 15rem;
+    color: wheat;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+
+
+.objective h1{
+    position: absolute;
+    top: 270rem;
+    left: 80rem;
+    color: aliceblue;
+    font-size: 5rem;
+}
+
+.objective ol{
+    position: absolute;
+    top: 340rem;
+    left: 20rem;
+    color: wheat;
+    font-size: 3rem;
+    line-height: 8rem;
+
+}
+
+.objective .fam{
+    position: absolute;
+    top: 340rem;
+    left: 100rem;
+
+}
+
+
+#section3{
+    background-color: rgba(135, 138, 222, 0.341);
+    width: 100%;
+    height: 130rem;
+}
+
+
+.sec3 h1{
+    color: rgba(0, 110, 255, 0.895);
+    position: absolute;
+    top: 430rem;
+    right: 60rem;
+    font-size: 6rem;
+}
+
+#contact{
+    position: absolute;
+    top: 440rem;
+    right: 30rem;
+    font-size: 3rem;
+    line-height: 6rem;
+}
+
+.sec3 a{
+    position: absolute;
+    top: 465rem;
+    left: 50rem;
+    line-height: 8rem;
+    color: black;
+}
+
+a:hover{
+    color: red;
+
+}
+
+.mail{
+    position: absolute;
+    top: 470rem;
+    left: 50rem;
+    line-height: 8rem;
+    color: black;
+}
+
+/*  MEDIA QUERIES */
+
+
+@media only screen and (max-width: 700px) and (max-width: 959px){
+    
+    #section1{
+        display: block;
+        width: 100%;
+        height: 115rem;
+    }
+
+    .text-container p{
+        color: wheat;
+        display: block;
+        font-size: 5rem;
+    }
+
+    .text-container span{
+        display: block;
+        font-size: 5rem;
+    }
+
+    #CV{
+        margin-top: 30rem;
+        display: block;
+        
+    }
+
+    #logo{
+        position: absolute;
+        top: 30rem;
+        height: 15rem;
+        width: 15rem;
+        right: 30rem;
+    }
+
+    #section2{
+        display: block;
+        width: 100%;
+        height: 500rem;
+    }
+
+    .text-container2 p{
+        position: absolute;
+        top: 155rem;
+        left: 10rem;
+        font-size: 2.5rem;
+        display: block;
+
+    }
+
+    .text-container2 .text2{
+        position: absolute;
+        top: 140rem;
+        left: 10rem;
+        font-size: 2.5rem;
+        display: block;
+    }
+
+    .text-container2 h1{
+        position: absolute;
+        top: 125rem;
+        left: 10rem;
+        display: block;
+    }
+
+    .pic2{
+
+        top: 190rem;
+        left: 20rem;
+        height: 30rem;
+        width: 30rem;
+        display: block;
+    }
+    
+    .language h1{
+        position: absolute;
+        top: 240rem;
+        display: block;
+        color: antiquewhite;
+    }
+    
+    .language .html{
+        position: absolute;
+        top: 270rem;
+    }
+
+    .language .css{ position: absolute; 
+        top: 310rem;
+        height: 30rem; 
+        width: 30rem; 
+        background-color: rgba(168, 187, 207, 0.783); 
+        left: 20rem; border: 2rem groove grey;
+        display: block;
+    }
+
+    .language .script{
+        top: 350rem;
+        left: 20rem;
+        height: 30rem; 
+        width: 30rem; 
+        display: block;
+    }
+
+    .objective p{
+        position: absolute;
+        top: 410rem;
+        display: block;
+    }
+
+
+    .objective h1{
+        position: absolute;
+        bottom: 410rem;
+        display: block;
+        
+    }
+
+    .objective ol{
+        position: absolute;
+        top: 490rem;
+        right: 5rem;
+        display: block;
+    }
+
+    .objective .fam{
+        position: absolute;
+        top: 570rem;
+        left: 15rem;
+        display: block;
+        height: 30rem;
+        width: 50rem;
+        display: block;
+    }
+
+    #section3{
+        display: block;
+        width: 100%;
+        height: 200rem;
+    }
+
+    .sec3 h1{
+        position: absolute;
+        top: 620rem;
+        right: 20rem;
+        display: block;
+    }
+
+    #contact{
+        position: absolute;
+        top: 630rem;
+        left: 30rem;
+        font-size: 2rem;
+        display: block;
+    }
+
+    .sec3 a{
+        position: absolute;
+        top: 720rem;
+        left: 20rem;
+        display: block;
+        color: yellow;
+    }
+}
