@@ -235,23 +235,23 @@ border: .5px solid rgba( 255, 255, 255, 0.18 );
 .sec3 h1{
     color: rgba(0, 110, 255, 0.895);
     position: absolute;
-    top: 430rem;
-    right: 60rem;
+    top: 450rem;
+    right: 80rem;
     font-size: 6rem;
 }
 
 #contact{
     position: absolute;
-    top: 440rem;
-    right: 30rem;
+    top: 460rem;
+    right: 50rem;
     font-size: 3rem;
     line-height: 6rem;
 }
 
 .sec3 a{
     position: absolute;
-    top: 465rem;
-    left: 50rem;
+    top: 485rem;
+    left: 70rem;
     line-height: 8rem;
     color: black;
 }
@@ -263,8 +263,8 @@ a:hover{
 
 .mail{
     position: absolute;
-    top: 470rem;
-    left: 50rem;
+    top: 495rem;
+    left: 70rem;
     line-height: 8rem;
     color: black;
 }
